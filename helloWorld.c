@@ -6,5 +6,9 @@
 
 int main()
 {
+	char name[4];
 	printf("Hello World! \n");
+	printf("What's your name? "); scanf("%s", name);
+	printf("Hello, %s!\n", name);
+	
 }
